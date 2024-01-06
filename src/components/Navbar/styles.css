@@ -1,0 +1,17 @@
+.navbar {
+    /*background-color: white;*/
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  @media (min-width: 992px) {
+    .menu {
+      display: none;
+    }
+  }
+
+  @media(max-width: 50px) { 
+    .post .image_section img { 
+      display: none; 
+    }
+  }

@@ -1,0 +1,75 @@
+.card{
+    text-align: right;
+}
+
+.cardbody{
+    text-align: center;
+}
+
+.buttonTable{
+    margin: 20px;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+	background: transparent;
+}
+
+.auth-menu{
+    background: #007E85;
+}
+
+@media only screen and (max-width: 768px) {
+    .auth-menu {
+        background: white !important;
+    }
+
+    .ant-modal-wrap {
+        height: 80% !important;
+        margin-top: -25% !important;
+    }
+}
+
+.ant-layout-sider-children {
+    background: #007E85 !important;
+}
+
+.ant-layout-sider-trigger {
+    background: #007E85 !important;
+}
+
+.ant-layout-sider-has-trigger {
+    background: #007E85 !important;
+}
+
+/*
+.ant-layout.site-layout.custom {
+    border-radius: 3%;
+    z-index: 99999;
+    background-color: #007E85 !important;
+}
+*/
+
+
+.ant-drawer-content-wrapper {
+    height: 100% !important;
+}
+
+.ant-drawer-content{
+    background-color: black !important;
+}
+
+.ant-drawer-close {
+    color: white !important;
+}
+
+.ant-dropdown-menu-item {
+    cursor: default !important;
+}
+
+.ant-dropdown-menu-item:hover {
+    background-color: transparent !important;
+}
+
+.window-container{
+    background-color: white !important;
+}

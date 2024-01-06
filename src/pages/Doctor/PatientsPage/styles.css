@@ -1,0 +1,18 @@
+.table-drop {
+    background-color: white;
+    padding: 6px;
+    border-radius: 1px solid silver;
+    cursor: pointer;
+}
+
+.table-drop span {
+   border: 1px solid silver;
+   padding: 2px; 
+   color: skyblue;
+}
+
+.table-drop span:hover {
+    background-color: skyblue;
+    color: white;
+    cursor: pointer;
+}

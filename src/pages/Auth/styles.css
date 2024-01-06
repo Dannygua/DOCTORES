@@ -1,0 +1,80 @@
+div .content-principal{
+    height: 100vh;
+}
+
+.button-login {
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: none;
+    z-index: 1;
+    width: 100%;
+  }
+  .button-login:hover:after {
+    width: 100%;
+    left: 0;
+  }
+  .button-login:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    transition: all 0.3s ease;
+    right: 0;
+  }
+  .button-login:active {
+    top: 2px;
+  }
+
+.login-first-col{ 
+  margin-top: 8%; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: end; 
+  padding-right: 32px; 
+}
+
+.login-first-col img {
+  height: 300px;
+}
+
+.login-second-col {
+  margin-top: 8%;
+}
+
+.login-second-col [class*="ant-card-bordered"] {
+  width: 70%;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .login-first-col {
+    align-items: center;
+    padding-right: 0px;
+  }
+
+  .login-first-col img {
+    height: 150px;
+  }
+
+  .login-second-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 20px;
+  }
+
+  .login-second-col [class*="ant-card-bordered"] {
+    width: 100%;
+  }
+}

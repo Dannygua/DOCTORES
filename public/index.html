@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<script src='https://8x8.vc/vpaas-magic-cookie-b8718f4a901c446fb269aad6eb41a81d/external_api.js' async></script>
+<style>html, body, #jaas-container { height: 100%; }</style>
+<script type="text/javascript">
+  window.onload = () => {
+    const api = new JitsiMeetExternalAPI("8x8.vc", {
+      roomName: "vpaas-magic-cookie-b8718f4a901c446fb269aad6eb41a81d/SampleAppAssociatedPreysChainPrimarily",
+      parentNode: document.querySelector('#jaas-container'),
+      // Make sure to include a JWT if you intend to record,
+      // make outbound calls or use any other premium features!
+      // jwt: "eyJraWQiOiJ2cGFhcy1tYWdpYy1jb29raWUtYjg3MThmNGE5MDFjNDQ2ZmIyNjlhYWQ2ZWI0MWE4MWQvNmE0MzI0LVNBTVBMRV9BUFAiLCJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJqaXRzaSIsImlzcyI6ImNoYXQiLCJpYXQiOjE2ODk5Mjg3MTQsImV4cCI6MTY4OTkzNTkxNCwibmJmIjoxNjg5OTI4NzA5LCJzdWIiOiJ2cGFhcy1tYWdpYy1jb29raWUtYjg3MThmNGE5MDFjNDQ2ZmIyNjlhYWQ2ZWI0MWE4MWQiLCJjb250ZXh0Ijp7ImZlYXR1cmVzIjp7ImxpdmVzdHJlYW1pbmciOmZhbHNlLCJvdXRib3VuZC1jYWxsIjpmYWxzZSwic2lwLW91dGJvdW5kLWNhbGwiOmZhbHNlLCJ0cmFuc2NyaXB0aW9uIjpmYWxzZSwicmVjb3JkaW5nIjpmYWxzZX0sInVzZXIiOnsiaGlkZGVuLWZyb20tcmVjb3JkZXIiOmZhbHNlLCJtb2RlcmF0b3IiOnRydWUsIm5hbWUiOiJUZXN0IFVzZXIiLCJpZCI6Imdvb2dsZS1vYXV0aDJ8MTEwOTc5ODM0NjY4MDI3OTEyODc1IiwiYXZhdGFyIjoiIiwiZW1haWwiOiJ0ZXN0LnVzZXJAY29tcGFueS5jb20ifX0sInJvb20iOiIqIn0.d_W1mFjXQDXA1nMlXXkJ2faBVRkkwPKcf6A1OmNt3ord4mqedVSBuUg2bSb00z9YUdcyE93Hcb-0LrZyvTgMKYJdkRyAS9aPeAQ-IObjgg4BBuz9QQH5BojpSJx3v0FRI_-awSThkzR0aaCIVq8_q0vrc97XAkbRwEbhFd3OOuJdb5wI_wl7Z6-dtQzI_7gBgV6LTSCfICv4uqJheyeSLH9Iyl0fM1adcHFdPMTMI_y4P8iRzn1plVWvJrKO4b2A3YI-RRpQKxu7yAn94eZjkGooHVJuDyAvQeYh2eQ82WjRjimx92UKXAhqocdj-2qGM0vS5e8ak0ZOUGQN-CD68g"
+    });
+  }
+</script>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>Bypass Gástrico EC</title>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <style>
+    df-messenger {
+      background-color: red;
+    }
+  </style>
+  <df-messenger intent="WELCOME" chat-icon="https://cdn-icons-png.flaticon.com/512/2282/2282268.png" chat-color="red"
+    chat-title="Asistente Medico" agent-id="8711fc5c-5a79-485d-94ac-536de18e4879" language-code="es">
+    <style>
+      df-messenger {
+        --df-messenger-button-titlebar-color: #047c84;
+        --df-messenger-button-titlebar-color: #047c84;
+      }
+    </style>
+  </df-messenger>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <script src="https://code.createjs.com/1.0.0/createjs.min.js" type="text/javascript"></script>
+  <script src="./body-animate.js" type="text/javascript" async defer></script>
+  <script type="module" src="/src/index.tsx"></script>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+</body>
+
+</html>

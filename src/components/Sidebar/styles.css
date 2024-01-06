@@ -1,0 +1,24 @@
+.mobile-menu {
+    display: none;
+}
+
+.custom-right{
+    background: #007E85;
+}
+
+@media only screen and (max-width: 768px) {
+    .desktop-sidebar {
+        display:  none;
+    }
+
+    .mobile-menu {
+        display: block;
+        position: fixed; 
+        bottom: 30px; 
+    }
+
+    .custom-right{
+        margin-left: 0px !important;
+    }
+
+}
